@@ -42,3 +42,19 @@ div {
     background-color: black;
     text-align: center;
 }
+
+/*  
+    Style individual list items.
+*/
+.navbar li {
+    width: 150 px;
+    background-color: #000;
+    border: 1px solid red;
+    /* 
+        Show the navbar elements next to each other instead of on top of each 
+        other. 
+    */
+    padding: 10px;
+    display: inline-block;
+    line-height: 40px;
+}
