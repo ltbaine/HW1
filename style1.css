@@ -3,7 +3,27 @@
     Sebastian Zimmeck (szimmeck@wesleyan.edu)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+/* 
+    All text in paragraphs should be blue.
+*/
+p {
+    color:blue;
+}
+
+/* 
+    The background of all divs should be pink.
+ */
+div {
+    background-color: hotpink;
+}
+#white-div {
+    color: white;
+}
 
 .navbar ul {
     /* 
