@@ -12,10 +12,10 @@ body {
     font-family: 'Noto Sans SC', sans-serif;
 }
 /* 
-    All text in paragraphs should be blue.
+    All text in paragraphs should be black.
 */
 p {
-    color:white;
+    color:black;
 }
 
 /* 
@@ -33,7 +33,7 @@ div {
         Remove bullet points.
     */
     list-style: none;
-    width: 500px;
+    width: 350px;
     margin: 0 auto;
     /* 
         No padding.
@@ -42,7 +42,7 @@ div {
     /* 
         For navbars use background color that stands out.
     */
-    background-color: black;
+    background-color: white;
     text-align: center;
 }
 
@@ -51,7 +51,7 @@ div {
 */
 .navbar li {
     width: 150 px;
-    background-color: #000;
+    background-color: pink;
     border: 1px solid pink;
     /* 
         Show the navbar elements next to each other instead of on top of each 
