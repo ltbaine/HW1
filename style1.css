@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Noto Sans SC', sans-serif;
+    background-color: rgb(251, 209, 111);
 }
 /* 
     All text in paragraphs should be black.
@@ -22,10 +23,10 @@ p {
     The background of all divs should be pink.
  */
 div {
-    background-color: hotpink;
+    background-color: rgb(251, 209, 111);
 }
 #white-div {
-    color: white;
+    color: black;
 }
 
 .navbar ul {
@@ -33,7 +34,6 @@ div {
         Remove bullet points.
     */
     list-style: none;
-    width: 350px;
     margin: 0 auto;
     /* 
         No padding.
@@ -43,7 +43,9 @@ div {
         For navbars use background color that stands out.
     */
     background-color: white;
-    text-align: center;
+    text-align: left;
+    overflow: hidden;
+    position: fixed;
 }
 
 /*  
@@ -51,17 +53,25 @@ div {
 */
 .navbar li {
     width: 150 px;
-    background-color: pink;
-    border: 1px solid pink;
+    background-color: black;
+    border: 1px solid rgb(251, 209, 111);
     /* 
         Show the navbar elements next to each other instead of on top of each 
         other. 
     */
     padding: 10px;
-    display: inline-block;
-    line-height: 40px;
+    display: inline;
+}
+
+.navbar li a{
+    color: white;
+    border: 1 px solid black;
+    padding: 14px 16px;
+    line-height: 40 px;
 }
 
 table, td {
-    border: 1px solid gray;
+    border: 1px solid white;
+    background-color: rgb(255, 234, 183);
+    -webkit-text-fill-color: rgb(45, 45, 45);
 }
