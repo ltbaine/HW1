@@ -14,12 +14,11 @@
 body {
     /*font-family: 'Noto Sans SC', sans-serif;*/
     background-color: rgb(251, 209, 111);
-    font-family: 'Righteous', cursive;
     font-family: 'Cardo', serif;
 }
 
 h1 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Bungee', cursive;
 }
 
 h2 {
@@ -46,6 +45,11 @@ div {
     background-color: rgb(251, 209, 111);
 }
 #white-div {
+    color: black;
+}
+
+.div-presave {
+    background-color: hotpink;
     color: black;
 }
 
