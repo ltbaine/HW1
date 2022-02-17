@@ -9,11 +9,11 @@
 /* 
     You can import a font from Google at https://fonts.google.com/
 */
-@import url('https://fonts.https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Cardo&family=Noto+Serif+Display:wght@300;400&family=Playfair+Display&family=Ultra&display=swap" rel="stylesheet.com/css2?family=Anton&family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Cardo&family=Noto+Serif+Display:wght@300;400&family=Playfair+Display:wght@900&family=Ultra&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Cardo&family=Noto+Serif+Display:wght@300;400&family=Playfair+Display:wght@900&family=Ultra&display=swap" rel="stylesheet');
 
 body {
     /*font-family: 'Noto Sans SC', sans-serif;*/
-    background-color: rgb(13, 54, 170);
+    background-color: rgb(74, 120, 255);
     font-family: 'Cardo', serif;
 }
 

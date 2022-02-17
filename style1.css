@@ -9,11 +9,11 @@
 /* 
     You can import a font from Google at https://fonts.google.com/
 */
-@import url('https://fonts.googleapis.https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Cardo&family=Noto+Serif+Display:wght@300;400&family=Playfair+Display&family=Ultra&display=swap" rel="stylesheet/css2?family=Anton&family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Cardo&family=Noto+Serif+Display:wght@300;400&family=Playfair+Display:wght@400;900&family=Ultra&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Cardo&family=Noto+Serif+Display:wght@300;400&family=Playfair+Display:wght@400;900&family=Ultra&display=swap" rel="stylesheet');
 
 body {
     /*font-family: 'Noto Sans SC', sans-serif;*/
-    background-color: rgb(241, 123, 13);
+    background-color: rgb(254, 135, 20);
     font-family: 'Cardo', serif;
 }
 
@@ -91,14 +91,18 @@ p {
     line-height: 40 px;
 }
 
+/* 
+    The background of all divs should be mango.
+ */
+ div {
+    background-color: rgb(254, 135, 20);
+ }
+
 .div-welcome {
     text-align: center;
     font-size: 225px;
     color: black;  
     margin-bottom: 100px;
-}
-
-#about {
 }
 
 #ranks {
@@ -110,18 +114,8 @@ iframe {
     height: 100%;
 }
 
-/* 
-    The background of all divs should be mango.
- */
-div {
-    background-color: rrgb(251, 209, 111);
-}
 #white-div {
     color: black;
-}
-
-.div-topChart {
-    color: coral;
 }
 
 table, td {
@@ -135,12 +129,13 @@ table, td {
 }
 
 .div-reviews {
-    background-color: rgb(208, 0, 134);
-    border-width: 2px;
+    background-color: rgb(236, 71, 178);
+    border-width: 3px;
     border-style: solid;
-    border-color: white;
+    border-color: pink;
     color: rgb(255, 254, 254);
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 #presave {
@@ -155,9 +150,11 @@ table, td {
 }
 
 .div-footnote-block {
-    background-color: rgb(143, 241, 143);
+    margin-top: 100px;
+    background-color: lightseagreen;
     border-width: 2px;
     border-style: solid;
     border-color: white;
-    color: black;
+    color: white;
+    text-align: center;
 }
