@@ -142,9 +142,9 @@ iframe {
 }
 
 /* 
-    ranks id referral ... adding color/text edits
+    ranks class referral ... adding color/text edits
  */
-#div-reviews {
+.div-reviews {
     background-color: rgb(61, 205, 250);
     border-width: 3px;
     border-style: solid;
