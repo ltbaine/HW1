@@ -9,11 +9,11 @@
 /* 
     You can import a font from Google at https://fonts.google.com/
 */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Cardo&family=Noto+Serif+Display:wght@300;400&family=Playfair+Display:wght@900&family=Ultra&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Cardo&family=Noto+Serif+Display:wght@300;400&family=Playfair+Display&family=Ultra&display=swap" rel="stylesheet/css2?family=Anton&family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Cardo&family=Noto+Serif+Display:wght@300;400&family=Playfair+Display:wght@400;900&family=Ultra&display=swap" rel="stylesheet');
 
 body {
     /*font-family: 'Noto Sans SC', sans-serif;*/
-    background-color: rgb(251, 209, 111);
+    background-color: rgb(241, 123, 13);
     font-family: 'Cardo', serif;
 }
 
@@ -114,7 +114,7 @@ iframe {
     The background of all divs should be mango.
  */
 div {
-    background-color: rgb(251, 209, 111);
+    background-color: rrgb(251, 209, 111);
 }
 #white-div {
     color: black;
@@ -135,11 +135,12 @@ table, td {
 }
 
 .div-reviews {
-    background-color: rgb(241, 194, 224);
+    background-color: rgb(208, 0, 134);
     border-width: 2px;
     border-style: solid;
     border-color: white;
-    color:rgb(47, 47, 47);
+    color: rgb(255, 254, 254);
+    margin-bottom: 10px;
 }
 
 #presave {
@@ -153,11 +154,10 @@ table, td {
     text-align: center;
 }
 
-.footnote-block-class {
+.div-footnote-block {
+    background-color: rgb(143, 241, 143);
     border-width: 2px;
     border-style: solid;
-    margin: 10px 5px 15px 25px;
-    padding: 50px;
-    background-color: black;
-    color: white;
+    border-color: white;
+    color: black;
 }
