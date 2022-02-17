@@ -82,13 +82,27 @@ p {
     line-height: 40 px;
 }
 
+.div-welcome {
+    text-align: center;
+    font-size: 225px;
+    color: black;  
+    margin-bottom: 100px;
+}
+
+#about {
+}
+
+#ranks {
+    margin-top: 100px;
+}
+
 iframe {
     width: 100%;
     height: 100%;
 }
 
 /* 
-    The background of all divs should be pink.
+    The background of all divs should be mango.
  */
 div {
     background-color: rgb(251, 209, 111);
@@ -107,6 +121,14 @@ table, td {
     -webkit-text-fill-color: rgb(45, 45, 45);
 }
 
+#reviews {
+    margin-top: 100px;
+}
+
+#presave {
+    margin-top: 100px;
+}
+
 .div-presave {
     background-color: rgb(251, 209, 111);
     color: black;
@@ -114,7 +136,11 @@ table, td {
     text-align: center;
 }
 
-.footnote {
-    background-color: white;
-    color: black;
+.footnote-block-class {
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px 5px 15px 25px;
+    padding: 50px;
+    background-color: black;
+    color: white;
 }
