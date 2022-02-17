@@ -18,10 +18,16 @@ body {
 }
 
 h1 {
-    font-family: 'Bungee', cursive;
+
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
 }
 
 h2 {
+    font-family: 'Bungee', cursive;
+}
+
+h3 {
     font-family: 'Noto Serif Display', serif;
 }
 
@@ -46,6 +52,10 @@ div {
 }
 #white-div {
     color: black;
+}
+
+.div-topChart {
+    color: coral;
 }
 
 .div-presave {
@@ -99,4 +109,9 @@ table, td {
     border: 1px solid white;
     background-color: rgb(255, 234, 183);
     -webkit-text-fill-color: rgb(45, 45, 45);
+}
+
+.footnote {
+    background-color: white;
+    color: black;
 }
