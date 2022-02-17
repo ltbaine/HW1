@@ -11,12 +11,19 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Cardo&family=Noto+Serif+Display:wght@300;400&family=Playfair+Display:wght@900&family=Ultra&display=swap" rel="stylesheet');
 
+/*
+    The imported font should be applied to all body text
+    and background color is for the entire page.
+*/
 body {
     /*font-family: 'Noto Sans SC', sans-serif;*/
     background-color: rgb(77, 120, 251);
-    font-family: 'Cardo', serif;
+    font-family: 'Playfair Display', serif;
 }
 
+/*
+    All text in h1-h5 should be the following imported font.
+*/
 h1 {
 
     font-family: 'Bungee Shade', cursive;
@@ -51,10 +58,10 @@ p {
 }
 
 /* 
-    The background of all divs should be mango.
+    The background of all divs should be purple/blue.
  */
- div {
-    background-color: rgb(144, 215, 239);
+div {
+    background-color: rgb(77, 120, 251);
 }
 
 .div-topChart {
@@ -63,8 +70,8 @@ p {
 
 table, td {
     border: 2px solid white;
-    background-color: rgb(182, 227, 242);
-    -webkit-text-fill-color: rgb(45, 45, 45);
+    background-color: black;
+    -webkit-text-fill-color: white;
     text-size-adjust: 20px;
 }
 
