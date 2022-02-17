@@ -13,7 +13,7 @@
 
 body {
     /*font-family: 'Noto Sans SC', sans-serif;*/
-    background-color: rgb(74, 120, 255);
+    background-color: rgb(77, 120, 251);
     font-family: 'Cardo', serif;
 }
 
@@ -39,7 +39,7 @@ h4 {
 
 h5 {
     font-family: 'Bungee Outline', cursive;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 /* 
@@ -62,8 +62,9 @@ p {
 }
 
 table, td {
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: rgb(182, 227, 242);
     -webkit-text-fill-color: rgb(45, 45, 45);
+    text-size-adjust: 20px;
 }
 
