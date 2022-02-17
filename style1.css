@@ -169,6 +169,13 @@ iframe {
     color: black;
 }
 
+.div-presave {
+    background-color: rgb(236, 71, 178);
+    color: black;
+    font-size: 100px;
+    text-align: center;
+}
+
 .div-footnote-block {
     margin-top: 100px;
     background-color: black;
