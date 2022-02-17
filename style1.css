@@ -33,6 +33,15 @@ h3 {
     font-size: 20px;
 }
 
+h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+h5 {
+    font-family: 'Bungee Outline', cursive;
+    font-size: 35px;
+}
+
 /* 
     All text in paragraphs should be black.
 */
@@ -123,6 +132,14 @@ table, td {
 
 #reviews {
     margin-top: 100px;
+}
+
+.div-reviews {
+    background-color: rgb(241, 194, 224);
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color:rgb(47, 47, 47);
 }
 
 #presave {
