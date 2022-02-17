@@ -9,7 +9,7 @@
 /* 
     You can import a font from Google at https://fonts.google.com/
 */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Cardo&family=Noto+Serif+Display:wght@300;400&family=Playfair+Display:wght@900&family=Ultra&display=swap" rel="stylesheet');
 
 body {
     /*font-family: 'Noto Sans SC', sans-serif;*/
@@ -25,10 +25,12 @@ h1 {
 
 h2 {
     font-family: 'Bungee', cursive;
+    font-size: 30px;
 }
 
 h3 {
-    font-family: 'Noto Serif Display', serif;
+    font-family: 'Ultra', serif;
+    font-size: 20px;
 }
 
 /* 
@@ -37,6 +39,47 @@ h3 {
 p {
     color:black;
     font-family: 'Cardo', serif;
+}
+
+.navbar ul {
+    /* 
+        Remove bullet points.
+    */
+    list-style: none;
+    margin: 0 auto;
+    /* 
+        No padding.
+    */
+    padding: 0;
+    /* 
+        For navbars use background color that stands out.
+    */
+    background-color: black;
+    text-align: left;
+    overflow: hidden;
+    position: fixed;
+}
+
+/*  
+    Style individual list items.
+*/
+.navbar li {
+    width: 150 px;
+    background-color: black;
+    border: 1px solid black;
+    /* 
+        Show the navbar elements next to each other instead of on top of each 
+        other. 
+    */
+    padding: 10px;
+    display: inline;
+}
+
+.navbar li a{
+    color: white;
+    border: 1 px solid black;
+    padding: 14px 16px;
+    line-height: 40 px;
 }
 
 iframe {
@@ -58,57 +101,17 @@ div {
     color: coral;
 }
 
-.div-presave {
-    background-color: hotpink;
-    color: black;
-    font-size: 100px;
-}
-
-.navbar ul {
-    /* 
-        Remove bullet points.
-    */
-    list-style: none;
-    margin: 0 auto;
-    /* 
-        No padding.
-    */
-    padding: 0;
-    /* 
-        For navbars use background color that stands out.
-    */
-    background-color: white;
-    text-align: left;
-    overflow: hidden;
-    position: fixed;
-}
-
-/*  
-    Style individual list items.
-*/
-.navbar li {
-    width: 150 px;
-    background-color: black;
-    border: 1px solid rgb(251, 209, 111);
-    /* 
-        Show the navbar elements next to each other instead of on top of each 
-        other. 
-    */
-    padding: 10px;
-    display: inline;
-}
-
-.navbar li a{
-    color: white;
-    border: 1 px solid black;
-    padding: 14px 16px;
-    line-height: 40 px;
-}
-
 table, td {
     border: 1px solid white;
     background-color: rgb(255, 234, 183);
     -webkit-text-fill-color: rgb(45, 45, 45);
+}
+
+.div-presave {
+    background-color: rgb(251, 209, 111);
+    color: black;
+    font-size: 100px;
+    text-align: center;
 }
 
 .footnote {
